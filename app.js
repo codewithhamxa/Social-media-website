@@ -92,23 +92,23 @@ fontSize.forEach( size => {
         let fontsize;
         size.classList.toggle('active');
         if(size.classList.contains('font-size-1')){
-            fontsize = '10px';
+            fontsize = '9px';
             root.style.setProperty('--stickey-top-left', '5.4rem');
             root.style.setProperty('--stickey-top-right', '5.4rem');
         }else if(size.classList.contains('font-size-2')){
-            fontsize = '13px';
+            fontsize = '12px';
             root.style.setProperty('--stickey-top-left', '5.4rem');
             root.style.setProperty('--stickey-top-right', '-7rem');
         }else if(size.classList.contains('font-size-3')){
-            fontsize = '16px';
+            fontsize = '15px';
             root.style.setProperty('--stickey-top-left', '5.-2rem');
             root.style.setProperty('--stickey-top-right', '5.-17rem');
         }else if(size.classList.contains('font-size-4')){
-            fontsize = '19px';
+            fontsize = '18px';
             root.style.setProperty('--stickey-top-left', '5.-5rem');
             root.style.setProperty('--stickey-top-right', '5.-25rem');
         }else if(size.classList.contains('font-size-5')){
-            fontsize = '22px';
+            fontsize = '20px';
             root.style.setProperty('--stickey-top-left', '5.-12rem');
             root.style.setProperty('--stickey-top-right', '5.-35rem');
         }
